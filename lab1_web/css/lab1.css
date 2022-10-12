@@ -34,6 +34,10 @@
     justify-content: center;
     background-color: beige;
 }
+.block-4 p{
+    max-width: 700px;
+    width: 100%;
+}
 .blocks-3-5{
     display: flex;
     background-color:wheat;
@@ -55,9 +59,7 @@ background-color: ghostwhite;
 
 .block-5{
     padding: 0 20px;
-
-display: flex;
-justify-content: center;
+    justify-content: center;
 }
 
 .blocks-3-and-5{
@@ -73,7 +75,8 @@ justify-content: center;
 
 
 .lukash-2 img{
-    width: 700px;
+    max-width: 700px;
+    width: 100%;
     padding-top: 20px;
     padding-bottom: 20px;
 }
