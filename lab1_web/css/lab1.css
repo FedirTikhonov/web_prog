@@ -1,0 +1,100 @@
+.block-1{
+    display: flex;
+    justify-content: center;
+    padding: 0 20px;
+    background-color: grey;
+    width: 100%;
+    
+}
+
+.blocks-2-6{
+    display: flex;
+    width: 100%;
+}
+
+.block-2{
+    background-color: rgb(156, 155, 95);
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    align-items: center;
+    width: 20%;
+}
+
+.blocks-3-6{
+    background-color: bisque;
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.block-4{
+    display: flex;
+    width: 20%;
+    padding: 0 20px;
+
+    flex-direction: column;
+    justify-content: center;
+    background-color: beige;
+}
+.blocks-3-5{
+    display: flex;
+    background-color:wheat;
+    justify-content: space-between;
+}
+
+.block-6{
+    padding: 0 20px;
+
+    background-color: khaki;
+}
+.block-3{
+    padding-left: 20px;
+    padding-right: 20px;
+
+display: flex;
+background-color: ghostwhite;
+}
+
+.block-5{
+    padding: 0 20px;
+
+display: flex;
+justify-content: center;
+}
+
+.blocks-3-and-5{
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+
+.lukash-2{
+    display: flex;
+    justify-content: center;
+}
+
+
+.lukash-2 img{
+    width:700px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.boom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.responsible{
+    display: flex;
+    flex-direction: column;
+}
+
+.nata img{
+
+}
