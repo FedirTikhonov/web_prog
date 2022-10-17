@@ -1,0 +1,82 @@
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+    'header header header'
+    'nav upper-content sidebar'
+    'nav lower-content sidebar'
+    'nav footer footer';
+    grid-template-rows: 1fr 4fr 1fr;
+}
+
+.header, .footer, .lower-content, .upper-content, .sidebar, .nav{
+background-color: antiquewhite;
+padding: 20px;
+border: skyblue 1px solid;
+}
+
+.header{
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 20px;
+    align-content: center;
+    grid-area: header;
+}
+
+.footer{
+    display: grid;
+
+    grid-area: footer;
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 20px;
+    align-content: center;
+
+}
+
+.lower-content{
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 20px;
+    align-content: center;
+
+
+
+}
+
+.upper-content{
+    display: grid;
+
+    grid-area: upper-content;
+    align-content: center;
+
+}
+
+.sidebar{
+    display: grid;
+
+    grid-area: sidebar;
+    align-content: center;
+
+}
+
+.nav{
+    display: grid;
+    grid-area: nav;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.lukash-2 img{
+    width: 700px;
+    display: grid;
+    padding: 20px;
+    justify-content: center;
+    align-content: center;
+}
+
+.boom{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
